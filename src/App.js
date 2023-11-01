@@ -100,18 +100,18 @@ const App = () => {
   
 
   return (
-    <div>
-      <h1>Plates Co</h1>
+    <div className="app-container">
+      <h1 className="app-title">Plates Co</h1>
       <ProductCatalog addToBasket={addToBasket} />
 
-        <div className="delivery-cost">
-            <h3>Delivery Cost</h3>
-            <ul>
-              <li>Orders under $50 cost $4.95</li><br></br>
-              <li>For orders under $90, delivery costs $2.95</li><br></br>
-              <li>Orders of $90 or more have free delivery</li><br></br>
-            </ul>
-        </div>
+      <div className="delivery-info">
+        <h3>Delivery Cost</h3>
+        <ul>
+          <li>Orders under $50 cost $4.95</li>
+          <li>For orders under $90, delivery costs $2.95</li>
+          <li>Orders of $90 or more have free delivery</li>
+        </ul>
+      </div>
 
       <Basket
         items={items}
