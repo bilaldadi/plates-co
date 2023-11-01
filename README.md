@@ -69,8 +69,3 @@ The project is structured as follows:
   - `components/` - React components for the product catalog and basket.
   - `App.js` - The main application component.
 - `public/` - Static assets and HTML template.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
