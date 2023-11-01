@@ -15,9 +15,9 @@ const App = () => {
   };
 
   const deliveryRules = [
-    { target: 0, charge: 4.95 },  // Orders under $50 cost $4.95
-    { target: 50, charge: 2.95 }, // For orders under $90, delivery costs $2.95
-    { target: 90, charge: 0 },    // Orders of $90 or more have free delivery
+    { target: 0, charge: 4.95 },  
+    { target: 50, charge: 2.95 }, 
+    { target: 90, charge: 0 },    
   ];
   
 
