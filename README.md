@@ -1,6 +1,3 @@
-Certainly, here's the entire README content in Markdown code format:
-
-```markdown
 # Plates Co - Online Plate Store
 
 Plates Co is a simple React application that simulates an online plate store. Customers can add different types of plates to their basket, view the total cost, and take advantage of special offers and delivery rules.
@@ -36,7 +33,6 @@ To get this project up and running on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/plates-co.git
-```
 
 2. Change to the project directory:
 
