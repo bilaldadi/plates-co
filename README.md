@@ -33,7 +33,7 @@ To get this project up and running on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/plates-co.git
-
+```
 2. Change to the project directory:
 
 ```bash
